@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Справочник</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Git Справочник</h1>
+        <p>Основные команды и концепции Git</p>
+    </header>
+
+    <main>
+        <section class="commands">
+            <h2>Основные команды</h2>
+            <div class="command-card">
+                <h3>git init</h3>
+                <p>Инициализирует новый Git репозиторий в текущей папке</p>
+                <code>git init</code>
+            </div>
+
+            <div class="command-card">
+                <h3>git clone</h3>
+                <p>Клонирует удалённый репозиторий</p>
+                <code>git clone https://github.com/user/repo.git</code>
+            </div>
+
+            <div class="command-card">
+                <h3>git add</h3>
+                <p>Добавляет файлы в индекс</p>
+                <code>git add filename</code>
+                <code>git add .</code>
+            </div>
+
+            <div class="command-card">
+                <h3>git commit</h3>
+                <p>Фиксирует изменения</p>
+                <code>git commit -m "Сообщение коммита"</code>
+            </div>
+
+            <div class="command-card">
+                <h3>git push</h3>
+                <p>Отправляет изменения в удалённый репозиторий</p>
+                <code>git push origin main</code>
+            </div>
+        </section>
+
+        <section class="concepts">
+            <h2>Основные концепции</h2>
+            <div class="concept-card">
+                <h3>Репозиторий</h3>
+                <p>Хранилище вашего проекта с историей изменений</p>
+            </div>
+
+            <div class="concept-card">
+                <h3>Коммит</h3>
+                <p>Фиксация изменений в репозитории с комментарием</p>
+            </div>
+
+            <div class="concept-card">
+                <h3>Ветка (branch)</h3>
+                <p>Изолированная линия разработки</p>
+            </div>
+
+            <div class="concept-card">
+                <h3>Слияние (merge)</h3>
+                <p>Объединение изменений из разных веток</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Git Справочник | Для новичков и профессионалов</p>
+    </footer>
+</body>
+</html>
